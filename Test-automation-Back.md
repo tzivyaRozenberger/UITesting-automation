@@ -1,4 +1,4 @@
-```text```
+
 # Test Automation Back.
 
 ## Mission Objective:
@@ -41,12 +41,12 @@ Tests should be implemented for:
 project/\
 ├── src/\
 │   ├── calculations.py\
-│   └── business_rules.py
+│   └── business_rules.py\
 ├── **tests**/\
 │   ├── **test_calculations.py**\
 │   └── **test_business_rules.py**\
-└── **test.log**
-|
+└── **test.log**\
+|\
 |──data/\
 |   └── test_cases.json
 
