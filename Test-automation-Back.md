@@ -37,7 +37,7 @@ Tests should be implemented for:
     * sucess or error function or page
 
 ## 📂 Recommended structure
-src/
+src//
     │── calculations.py
     │── business_rules.py
 
