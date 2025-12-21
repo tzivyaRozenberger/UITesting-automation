@@ -1,3 +1,4 @@
+```text```
 # Test Automation Back.
 
 ## Mission Objective:
@@ -37,17 +38,15 @@ Tests should be implemented for:
     * sucess or error function or page
 
 ## 📂 Recommended structure
-src/
-    │── calculations.py
-    │── business_rules.py
+project/
+├── src/
+│   ├── calculations.py
+│   └── business_rules.py
+├── **tests**/
+│   ├── **test_calculations.py**
+│   └── **test_business_rules.py**
+└── **test.log**
 
-*tests/*
-    *│── test_calculations.py*
-    *│── test_business_rules.py*
-    *│── conftest.py*
-
-data/
-     test_cases.json
 
 ## Example of Expectations from a Test
 * The function returns a valid value for valid input
