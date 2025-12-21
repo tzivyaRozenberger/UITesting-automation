@@ -26,7 +26,7 @@ and handle errors correctly.
 | ----------- | ------ | --------------- | -------------------------------------   |
 | /users      | GET    | 200             | Getting a list of users                 |
 | /users      | POST   | 201             | Create a new user with all required     |
-|             |        |                 | fields                                  |
+                                          fields                                  
 | /users/{id} | GET    | 200 / 404       | Accept existing user / non-existent user|
 | /login      | POST   | 200 / 401       | Login with correct/incorrect user       |
 |             |        |                 | details                                 |
