@@ -38,19 +38,19 @@ Tests should be implemented for:
     * sucess or error function or page
 
 ## 📂 Recommended structure
-project/
-├── src/
-│   ├── calculations.py
+project/\
+├── src/\
+│   ├── calculations.py\
 │   └── business_rules.py
-├── **tests**/
-│   ├── **test_calculations.py**
-│   └── **test_business_rules.py**
+├── **tests**/\
+│   ├── **test_calculations.py**\
+│   └── **test_business_rules.py**\
 └── **test.log**
 |
-|──data/
+|──data/\
 |   └── test_cases.json
 
->>>>>>> fdc61f906b842f76ba5aa60fece577e11f4c75de
+
 
 ## Example of Expectations from a Test
 * The function returns a valid value for valid input
