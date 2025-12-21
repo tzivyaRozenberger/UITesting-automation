@@ -37,17 +37,20 @@ Tests should be implemented for:
     * sucess or error function or page
 
 ## 📂 Recommended structure
-src/\
-    │── calculations.py\
-    │── business_rules.py
-
-**tests**/\
-    **│── test_name_program.py**\
-    **│── test_business_rules.py**\
-    **│── conftest.py**
-
-data/\
-     test_cases.json
+project/
+│── src/
+│   ├── calculations.py
+│   └── business_rules.py
+│
+│── **tests**/\
+|   **│── test_name_program.py**\
+|   **│── test_business_rules.py**\
+|   **└── conftest.py**
+|
+|──data/\
+|   └── test_cases.json
+│
+│── test.log
 
 ## Example of Expectations from a Test
 * The function returns a valid value for valid input
