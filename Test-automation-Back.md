@@ -38,15 +38,15 @@ Tests should be implemented for:
 
 ## 📂 Recommended structure
 src/\
-    │── calculations.py
+    │── calculations.py\
     │── business_rules.py
 
-*tests/*
-    *│── test_calculations.py*
-    *│── test_business_rules.py*
-    *│── conftest.py*
+**tests**/\
+    **│── test_name_program.py**\
+    **│── test_business_rules.py**\
+    **│── conftest.py**
 
-data/
+data/\
      test_cases.json
 
 ## Example of Expectations from a Test
